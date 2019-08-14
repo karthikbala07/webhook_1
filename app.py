@@ -17,8 +17,10 @@ def results():
     # fetch action from json
     if (req.get('queryResult').get('action') == 'school'):
          return {'fulfillmentText': 'The name of the school is ABPS'}
+         print("The name of the school is ABPS")
     elif (req.get('queryResult').get('action') == 'college'):
          return {'fulfillmentText': 'The name of the college is SSN'}
+         print("The name of the college is SSN")
 
 # create a route for webhook
 @app.route('/webhook', methods=['GET', 'POST'])
