@@ -19,6 +19,8 @@ def results():
          return {'fulfillmentText': 'The name of the school is ABPS'}
     elif (req.get('queryResult').get('action') == 'college'):
          return {'fulfillmentText': 'The name of the college is SSN'}
+    elif (req.get('queryResult').get('action') == 'five'):
+         return {'fulfillmentText': 'I see myself in responsible position contributing significantly to growth of the industry and my person self'}
          
 
 # create a route for webhook
