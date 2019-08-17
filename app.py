@@ -16,7 +16,9 @@ def results():
 
     # fetch action from json
     if (req.get('queryResult').get('action') == 'school'):
-         return {'fulfillmentText': 'The name of the school is ABPS'}
+         return {'fulfillmentText': 'I did my high school from MLM mamallan matric higher secondary school'}
+    elif (req.get('queryResult').get('action') == 'school-follow'):
+         return {'fulfillmentText': 'I secured 94 Percent in my high school exams.'}
     elif (req.get('queryResult').get('action') == 'college'):
          return {'fulfillmentText': 'The name of the college is SSN'}
     elif (req.get('queryResult').get('action') == 'five'):
