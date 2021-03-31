@@ -1,7 +1,7 @@
 gunicorn
 Flask==1.0.2
 Flask-BasicAuth==0.2.0
-lxml==4.2.5
+lxml==4.6.3
 requests==2.19.1
 urllib3==1.23
 cachetools
