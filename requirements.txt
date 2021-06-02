@@ -3,5 +3,5 @@ Flask==1.0.2
 Flask-BasicAuth==0.2.0
 lxml==4.2.5
 requests==2.19.1
-urllib3==1.23
+urllib3==1.26.5
 cachetools
